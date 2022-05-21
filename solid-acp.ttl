@@ -146,7 +146,7 @@ acp:deny
 acp:allOf
     a rdf:Property ;
     rdfs:label "all of"@en ;
-    rdfs:comment "The all of property connects Policies to a set of Matchers, all of which MUST be satisfied for the Policy to be satisfied."@en ;
+    rdfs:comment "The allOf property connects Policies to a set of Matchers, all of which MUST be satisfied for the Policy to be satisfied."@en ;
     rdfs:isDefinedBy acp: ;
     rdfs:domain acp:Policy ;
     rdfs:range acp:Matcher .
@@ -154,7 +154,7 @@ acp:allOf
 acp:anyOf
     a rdf:Property ;
     rdfs:label "any of"@en ;
-    rdfs:comment "The any of property connects Policies to a set of Matchers, at least one of which MUST be satisfied for the Policy to be satisfied."@en ;
+    rdfs:comment "The anyOf property connects Policies to a set of Matchers, at least one of which MUST be satisfied for the Policy to be satisfied."@en ;
     rdfs:isDefinedBy acp: ;
     rdfs:domain acp:Policy ;
     rdfs:range acp:Matcher .
@@ -162,7 +162,7 @@ acp:anyOf
 acp:noneOf
     a rdf:Property ;
     rdfs:label "none of"@en ;
-    rdfs:comment "The none of property connects Policies to a set of Matchers, all of which MUST NOT be satisfied for the Policy to be satisfied."@en ;
+    rdfs:comment "The noneOf property connects Policies to a set of Matchers, all of which MUST NOT be satisfied for the Policy to be satisfied."@en ;
     rdfs:isDefinedBy acp: ;
     rdfs:domain acp:Policy ;
     rdfs:range acp:Matcher .
